@@ -1,0 +1,656 @@
+<html>
+<head>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <img src="img/imgfamily.jpg" style="width: 60; height: 40;" class="rounded-circle mx-2">
+          <a class="navbar-brand" href="#" id="liear" >Family Bark</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown border">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Trips
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item " href="#">zoo Trip</a></li>
+                  <li><a class="dropdown-item " href="#">Lake Trip</a></li>
+                  <li><a class="dropdown-item " href="#">Cinima Trip</a></li>
+                  <li><hr class="dropdown-divider"></hr></li>
+                  <li><a class="dropdown-item " href="#">Magic City</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">about</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit">Search</button>
+              <button class="btn btn-primary mx-2 " data-bs-toggle="collapse" data-bs-target="#vv" >Login</button>
+
+              <div class="  col-lg-4 col-sm-12 z-1 position-absolute mx-auto collapse rounded bg-light" id="vv">
+               <div class="  d-flex  justify-content-between bg-primary  align-items-center px-2" style="width: 100%; height: 50px;">
+               <strong class="text-light">login</strong>
+                <button type="button" class="btn-close bg-light" data-bs-dismiss="alert" style="width: 30;height: 30;"></button>
+               </div>
+               <form  class="mx-3">
+                <div class="mb-3 mt-3 px-3">
+                  <label for="email" class="form-label text-primary">enter your Email</label>
+                  <input type="email" class="form-control " id="email" placeholder="Enter email" name="email">
+                  <small class="mx-2 text-muted">we wil never share your email with anyone else</small>
+                </div>
+                <div class="mb-3 mx-3">
+                  <label for="pwd" class="form-label text-primary">enter ypur Password</label>
+                  <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                </div>
+                <div class="form-check mb-3 mx-3">
+                  <label class="form-check-label text-primary">
+                    <input class="form-check-input bg-primary" type="checkbox" name="remember"> Remember me
+                  </label>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-between mb-2">
+                <button type="submit" class="btn btn-primary mx-3">Submit</button>
+                <button type="button" class="btn btn-primary mx-3">close</button>
+            </div>
+              </form>
+              </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+          <!--slide--  -->
+          <!-- Carousel -->
+<div id="demo" class="carousel slide container-fluid " data-bs-ride="carousel" >
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators ">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+  
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner ">
+      <div class="carousel-item active ">
+        <img src="img/img1.jpg" alt="Los Angeles" class="d-block w-100">
+        <div class="overlay z-1 position-absolute text-center" style="width: 700px; height: 150px; background-color: rgba(0, 255, 179, 0.3);">
+           <h5 class="display-6">family bark garden</h5>
+           <small class="d-block mb-3">enjoy with greenSpaces</small>
+           <button class="btn btn-outline-info">visit Us</button>
+        </div>
+        <div class="icons positon-absolute z-1 position-fixed " style="width: 50px; height: 350px;">
+          <i class="fab fa-facebook fs-2 text-center text-primary my-3" style="width: 50px;"></i>
+          <i class="fab fa-instagram-square  fs-2 text-center text-primary my-3" style="width: 50px;"></i>
+          <i class="fab fa-linkedin fs-2 text-center text-primary my-3" style="width: 50px;"></i>
+          <i class="fab fa-twitter-square fs-2 text-center text-primary my-3" style="width: 50px;"></i>
+          <i class="fab fa-whatsapp-square fs-2 text-center text-primary my-3" style="width: 50px;"></i>
+
+        </div>
+      </div> <!--the first div contain the first img  -->
+      <div class="carousel-item">
+        <img src="img/img2.jpg" alt="Chicago" class="d-block w-100">
+        <div class="overlay z-1 position-absolute text-center" style="width: 700px; height: 150px; background-color: rgba(0, 225, 255, 0.3);">
+          <h5 class="display-6">family bark lakes</h5>
+          <small class="d-block mb-3">enjoy with greenSpaces</small>
+          <button class="btn btn-outline-info">visit Us</button>
+       </div>
+       <div class="icons positon-absolute z-1 position-fixed " style="width: 50px; height: 350px;">
+        <i class="fab fa-facebook fs-2 text-center text-primary my-3" style="width: 50px;"></i>
+        <i class="fab fa-instagram-square  fs-2 text-center text-primary my-3" style="width: 50px;"></i>
+        <i class="fab fa-linkedin fs-2 text-center text-primary my-3" style="width: 50px;"></i>
+        <i class="fab fa-twitter-square fs-2 text-center text-primary my-3" style="width: 50px;"></i>
+        <i class="fab fa-whatsapp-square fs-2 text-center text-primary my-3" style="width: 50px;"></i>
+
+      </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/img3.jpg" alt="New York" class="d-block w-100">
+        <div class="overlay z-1 position-absolute text-center" style="width: 700px; height: 150px; background-color: rgba(231, 138, 166, 0.4);">
+          <h5 class="display-6">family bark train</h5>
+          <small class="d-block mb-3">enjoy with greenSpaces</small>
+          <button class="btn btn-outline-danger">visit Us</button>
+       </div>
+       <div class="icons positon-absolute z-1 position-fixed " style="width: 50px; height: 350px;">
+        <i class="fab fa-facebook fs-2 text-center text-primary my-3" style="width: 50px;"></i>
+        <i class="fab fa-instagram-square  fs-2 text-center text-primary my-3" style="width: 50px;"></i>
+        <i class="fab fa-linkedin fs-2 text-center text-primary my-3" style="width: 50px;"></i>
+        <i class="fab fa-twitter-square fs-2 text-center text-primary my-3" style="width: 50px;"></i>
+        <i class="fab fa-whatsapp-square fs-2 text-center text-primary my-3" style="width: 50px;"></i>
+
+      </div>
+      </div>
+    </div>
+  
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+
+  <!-- -------------------------------------------------------------------- -->
+  <div class="section2 w-100 p-1 mx-1 mb-3 " style="height: 200px; background-color: skyblue;">
+  <h3 class="text-muted mx-3" id="liear">welcome</h3>
+  <p class="text-light  mx-3">The air-conditioned holiday park consists of separate bedrooms, 2 bathrooms with a hair dryer,
+     a seating area, and a living room. 
+    Guests can take in the ambience of the surroundings from an outdoor dining area.</p>
+    <button id="btn1" class=" btn btn-info  mx-3">learn more</button>
+  </div>
+<!-- ------------------------------------------------------------------------ -->
+<div class="section3 w-100 mx-2 d-flex justify-content-center align-items-center mb-3" style="background-color: #1B4242; height: 70px;;">
+<h4  style="color: #5C8374;">popular destination in family</h4>
+</div>
+<!-- ----------------------------------------------------- -->
+<ul class="list-group mb-3">
+  <li class="list-group-item d-flex justify-content-between " data-bs-toggle="collapse" data-bs-target="#domo" style="color: #5C8374;"> 
+    <strong>Magic River</strong>
+  <span class="text-right dropdown-toggle fs-4"></span>
+  </li>
+  <div  class="collapse mx-2 text-muted" id="domo">perferendis error ea eveniet, provident ipsa possimus. Molestias 
+    fugit officia placeat! Nam excepturi a delectus, similique officia porro vel quod harum!</div>
+
+
+
+    <li class="list-group-item d-flex justify-content-between " data-bs-toggle="collapse" data-bs-target="#dimo" style="color: #5C8374;"> 
+      <strong>3d Cinima</strong>
+    <span class="text-right dropdown-toggle fs-4"></span>
+    </li>
+    <div  class="collapse mx-2 text-muted" id="dimo" >perferendis error ea eveniet, provident ipsa possimus. Molestias 
+      fugit officia placeat! Nam excepturi !<wbr>
+      perferendis error ea eveniet, provident ipsa possimus. Molestias 
+      fugit officia placeat! Nam excepturi a delectus, similique officia porro vel quod harum!
+    </div>
+  
+
+
+
+      <li class="list-group-item d-flex justify-content-between " data-bs-toggle="collapse" data-bs-target="#dlmo" style="color: #5C8374;"> 
+        <strong>3d Cinima</strong>
+      <span class="text-right dropdown-toggle fs-4"></span>
+      </li>
+      <div  class="collapse mx-2 text-muted" id="dlmo" >perferendis error ea eveniet, provident ipsa possimus. Molestias 
+        fugit officia placeat! Nam excepturi a delectus, similique officia porro vel quod harum!
+        <wbr>
+        perferendis error ea eveniet, provident ipsa possimus. Molestias 
+        fugit officia placeat! Nam excepturi a delectus,
+      </div>
+</ul>
+
+<!-- -------------------------------------------------------------- -->
+<div class="section3 w-100 mx-2 d-flex justify-content-center align-items-center " style="background-color: #1B4242; height: 50px;;">
+  <h4  style="color: #5C8374;">Translate From Arabic To English </h4>
+  </div>
+  <!-- ----------------------------------------- -->
+  <div class="w-100 p-3 mx-2 mb-2 position-relative"   style="background-color: #9EC8B9; height: 250px;"  >
+  <h5 class="text-light">Write and Translate <a href="#"    class="text-decoration-none" style="color: #1B4242;">press Here</a></h5>
+  <!-- Button to Open the Modal -->
+<button type="button" class="btn btn-secondary "  data-bs-toggle="modal" data-bs-target="#myModal" id="jj">
+ Copy
+</button>
+<div id="jjj" class="positon-absolute" style="display: none;"></div>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">translate to english</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+       text copied
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">ok</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+<div class="mx-1 w-100 bg-light mt-2 p-1" style="height: 100px;">
+  Translate
+</div>
+  </div>
+<hr>
+
+<div class="section3 w-100 mx-2 d-flex justify-content-center align-items-center " style="background-color: #1B4242; height: 50px;;">
+  <h4  style="color: #5C8374;">Translate From Arabic To German </h4>
+  </div>
+  <!-- ----------------------------------------- -->
+  <div class="w-100 p-3 mx-2 mb-2"   style="background-color: #9EC8B9; height: 250px;"  >
+  <h5 class="text-light">Write and Translate <a href="#"    class="text-decoration-none" style="color: #1B4242;">press Here</a></h5>
+  <!-- Button to Open the Modal -->
+<button type="button" class="btn btn-secondary"  data-bs-toggle="modal" data-bs-target="#myModal" id="jj">
+ Copy
+</button>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">translate to english</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+       text copied
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">ok</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+<div class="mx-1 w-100 bg-light mt-2 p-1" style="height: 100px;">
+  Translate
+</div>
+  </div>
+<div class="backimg w-100" style="height: 300px;">
+</div>
+
+<!-- //////////////////////////////////////////// -->
+<div class="section3 w-100 mx-2 d-flex justify-content-center align-items-center " style="background-color: #1B4242; height: 50px;;">
+  <h4  style="color: #5C8374;">Pupular Destination in familybark</h4>
+  </div>
+  <div class="container-fluid mt-3 mx-3">
+<div class="row d-flex justify-content-between">
+<div class="card col-lg-3 col-sm-11" style="height: 400px;" id="cardimg">
+  <img class="card-img-top" src="img/0016.png" alt="Card image" style="width:100% ;height: 300px;">
+  <div class="card-body d-flex justify-content-between ">
+    <div>
+    <h4 class="card-title text-primary">gardens</h4>
+    <p class="card-text text-primary">amazing View </p>
+  </div>
+  <a href="#" class="btn btn-primary " style="height: 40px; width: 110px;" >learn more</a>
+  </div>
+</div><!-- the first card  -->
+
+
+<div class="card col-lg-3 col-sm-11 " style="height: 400px; margin: 0px 5%;" id="cardimg" >
+  <img class="card-img-top" src="img/im2.jpg" alt="Card image" style="width:100% ;height: 300px;">
+  <div class="card-body d-flex justify-content-between ">
+    <div>
+    <h4 class="card-title text-primary">Palmes</h4>
+    <p class="card-text text-primary">amazing View </p>
+  </div>
+  <a href="#" class="btn btn-primary " style="height: 40px; width: 110px;" >learn more</a>
+  </div>
+</div><!-- the first card  -->
+  
+
+
+<div class="card col-lg-3 col-sm-11 " style="height: 400px;;" id="cardimg" >
+  <img class="card-img-top" src="img/im3.jpg" alt="Card image" style="width:100% ;height: 300px;">
+  <div class="card-body d-flex justify-content-between ">
+    <div>
+    <h4 class="card-title text-primary">musiium</h4>
+    <p class="card-text text-primary">amazing View </p>
+  </div>
+  <a href="#" class="btn btn-primary " style="height: 40px; width: 110px;" >learn more</a>
+  </div>
+</div><!-- the first card  -->
+
+
+</div><!-- row  -->
+
+
+
+
+
+
+<div class="row d-flex justify-content-between mt-4">
+  <div class="card col-lg-3 col-sm-11" style="height: 400px;" id="cardimg">
+    <img class="card-img-top" src="img/im4.jpg" alt="Card image" style="width:100% ;height: 300px;">
+    <div class="card-body d-flex justify-content-between ">
+      <div>
+      <h4 class="card-title text-primary">Train</h4>
+      <p class="card-text text-primary">amazing View </p>
+    </div>
+    <a href="#" class="btn btn-primary " style="height: 40px; width: 110px;" >learn more</a>
+    </div>
+  </div><!-- the first card  -->
+  
+  
+  <div class="card col-lg-3 col-sm-11 " style="height: 400px; margin: 0px 5%;" id="cardimg" >
+    <img class="card-img-top" src="img/im5.png" alt="Card image" style="width:100% ;height: 300px;">
+    <div class="card-body d-flex justify-content-between ">
+      <div>
+      <h4 class="card-title text-primary">lighthouse</h4>
+      <p class="card-text text-primary">amazing View </p>
+    </div>
+    <a href="#" class="btn btn-primary " style="height: 40px; width: 110px;" >learn more</a>
+    </div>
+  </div><!-- the first card  -->
+    
+  
+  
+  <div class="card col-lg-3 col-sm-11 " style="height: 400px;;" id="cardimg" >
+    <img class="card-img-top" src="img/oxmhkc3x.png" alt="Card image" style="width:100% ;height: 300px;">
+    <div class="card-body d-flex justify-content-between ">
+      <div>
+      <h4 class="card-title text-primary">musiium</h4>
+      <p class="card-text text-primary">amazing View </p>
+    </div>
+    <a href="#" class="btn btn-primary " style="height: 40px; width: 110px;" >learn more</a>
+    </div>
+  </div><!-- the first card  -->
+  
+  
+  </div><!-- row  -->
+</div><!-- container imge  -->
+  
+               
+
+
+
+
+
+
+
+
+<div class="row d-flex justify-content-between mx-5 mt-4">
+  <div class="card col-lg-4 col-sm-12" style="height: 400px;" id="cardimg">
+    <img class="card-img-top" src="img/im6.jpg" alt="Card image" style="width:100% ;height: 300px;">
+    <div class="card-body d-flex justify-content-between ">
+      <div>
+      <h4 class="card-title text-primary">puplic garden</h4>
+      <p class="card-text text-primary">amazing View </p>
+    </div>
+    <a href="#" class="btn btn-primary " style="height: 40px; width: 110px;" >learn more</a>
+    </div>
+  </div><!-- the first card  -->
+  
+  
+  <div class="card col-lg-4 col-sm-12" style="height: 400px;" id="cardimg" >
+    <img class="card-img-top" src="img/im7.jpg" alt="Card image" style="width:100% ;height: 300px;">
+    <div class="card-body d-flex justify-content-between ">
+      <div>
+      <h4 class="card-title text-primary">theater</h4>
+      <p class="card-text text-primary">amazing View </p>
+    </div>
+    <a href="#" class="btn btn-primary " style="height: 40px; width: 110px;" >learn more</a>
+    </div>
+  </div><!-- the first card  -->
+  
+  </div><!-- row  -->
+</div><!-- container imge  -->
+  
+ <div id="immage"  class="w-100 mt-3" style="height: 300;">
+
+ </div>
+<hr>
+ 
+<div class="section3 w-100 mx-2 d-flex justify-content-center align-items-center " style="background-color: #1B1A55; height: 50px;;">
+  <h4  style="color: #535C91;">Thank For</h4>
+  </div>
+  <div class="container  mt-3">
+<div class="row d-flex justify-content-between" >
+   <div class="per1 col-sm-10 col-lg-3 rounded mb-3 p-2" style="height: 400px;  ;">
+    <div class="overper1">
+   <h5 class="mt-2  mx-2" style="color:white;">All Thank and appreciation</h5>
+   <div>
+    <small  class="mt-2  mx-2 text-light"><span class="text-sm mx-1"><i class="far fa-clock"></i></span>octoper 15 ,2020</small>
+   </div>
+   <div class="pre1content">
+    <img src="img/B612_20191026_123618_517.jpg" alt="" class="rounded-circle border mx-2" style="width: 60; height: 60; margin-top: 200px;">
+    <div><p class="mx-1 text-light mb-0"> Eng asmaa hossam mohamed</p>
+   <small class="mx-1 text-light">(fron end developer)</small>
+   </div>
+   </div>
+  </div>
+  </div>
+
+
+
+  <div class="per1 per2 col-xs-11 col-lg-3 rounded mb-3 p-2" style="height: 400px;  ;">
+    <div class="overper1">
+   <h5 class="mt-2  mx-2" style="color:white;">All Thank and appreciation</h5>
+   <div>
+    <small  class="mt-2  mx-2 text-light"><span class="text-sm mx-1"><i class="far fa-clock"></i></span>octoper 15 ,2020</small>
+   </div>
+   <div class="pre1content">
+    <img src="img/B612_20200308_194700_271.jpg" alt="" class="rounded-circle border mx-2" style="width: 60; height: 60; margin-top: 200px;">
+    <div><p class="mx-1 text-light mb-0"> Eng asmaa hossam mohamed</p>
+   <small class="mx-1 text-light">(fron end developer)</small>
+   </div>
+   </div>
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  <div class="per1 per3 col-xs-11 col-lg-3 rounded mb-3 p-2" style="height: 400px;  ;">
+    <div class="overper1">
+   <h5 class="mt-2  mx-2" style="color:white;">All Thank and appreciation</h5>
+   <div>
+    <small  class="mt-2  mx-2 text-light"><span class="text-sm mx-1"><i class="far fa-clock"></i></span>octoper 15 ,2020</small>
+   </div>
+   <div class="pre1content">
+    <img src="img/B612_20200607_184531_875.jpg" alt="" class="rounded-circle border mx-2" style="width: 60; height: 60; margin-top: 200px;">
+    <div><p class="mx-1 text-light mb-0"> Eng asmaa hossam mohamed</p>
+   <small class="mx-1 text-light">(fron end developer)</small>
+   </div>
+   </div>
+  </div>
+  </div>
+</div>
+</div>
+<!-- ----------------------------------------- -->
+<div>
+<p class="text-sm text-primary">thanks card <span><i class="fas fa-arrow-right"></i></span></p>
+
+</div>
+<hr>
+<!-- --------------------------------------------------------- -->
+<div class="mx-auto text-center w-100 mb-2"><strong class="fs-3" id="liear"> Family news</strong></div>
+
+<div class="container" id="familynews" style="background-color: #e6e0eb; ">
+
+  <div class="famnewimg col-lg-2 col-sm-12 ">
+    <img src="img/oxmhkc3x.png" alt="" class="w-100  col-lg-2 col-sm-10"  style="height: 310px;" id="imm">
+      </div>
+    
+  <div class="famnewcon mx-3 col-lg-9 col-sm-12 p-2">
+    <h5 style=" color:#C68484;" >Podcast Title</h5>
+   <small> <span><i class="fas fa-table text-sm"></i></span>
+    <p class="d-inline text-sm">Mon May 25th 2020</p></small>
+   <div class=" under" style="width: 7%;height: 3px; background-color: #C68484;"></div>
+    <p class="mt-2 pt-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis modi reprehenderit iure sapiente. Vitae assumenda, aperiam repellat quae quos impedit voluptatem deleniti rem optio incidunt quam aut molestiae natus nihil voluptate voluptatum culpa explicabo? Eius doloribus consectetur vitae. Sint veniam itaque molestias beatae quo qui similique, sapiente
+       mollitia laborum nulla voluptas architecto eligendi corporis id, perspiciatis deserunt, molestiae aliquam incidunt.</p>
+
+
+       <div class="parentdiv d-flex justify-content-start mt-5 mb-2">
+        <div class=" p-1" style="background-color: rgb(180, 176, 176);" id="di1">
+          <i class="fas fa-reply"></i>
+           <span >Product</span>
+        </div>
+
+        <div class=" p-1 mx-2" style="background-color: rgb(180, 176, 176);" id="di1">
+          <i class="fas fa-clock"></i>
+           <span >55 mins</span>
+        </div>
+
+        <div class=" p-1 mx-2 " style="background-color: rgb(180, 176, 176);" id="di1">
+          <i class="fas fa-caret-right"></i>
+           <span >Play Episode</span>
+        </div>
+      </div>
+</div>
+  <div class="clear"></div>
+  </div>
+
+</div>
+
+<!-- ----------------------------- -->
+<div class="container mt-5" id="familynews" style="background-color: #e6e0eb; ">
+
+  <div class="famnewcon  mx-3 col-lg-9 col-sm-12 p-2 float-end">
+    <h5 style=" color:#C68484;" >Podcast Title</h5>
+   <small> <span><i class="fas fa-table text-sm"></i></span>
+    <p class="d-inline text-sm">Mon May 25th 2020</p></small>
+   <div class="under" style="width: 7%;height: 3px; background-color: #C68484;"></div>
+    <p class="mt-2 pt-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis modi reprehenderit iure sapiente. Vitae assumenda, aperiam repellat quae quos impedit voluptatem deleniti rem optio incidunt quam aut molestiae natus nihil voluptate voluptatum culpa explicabo? Eius doloribus consectetur vitae. Sint veniam itaque molestias beatae quo qui similique, sapiente
+       mollitia laborum nulla voluptas architecto eligendi corporis id, perspiciatis deserunt, molestiae aliquam incidunt.</p>
+
+
+       <div class="parentdiv d-flex justify-content-start mt-5 mb-2">
+        <div class=" p-1" style="background-color: rgb(180, 176, 176);" id="dii1">
+          <i class="fas fa-reply"></i>
+           <span >Product</span>
+        </div>
+
+        <div class=" p-1 mx-2" style="background-color: rgb(180, 176, 176);" id="dii1">
+          <i class="fas fa-clock"></i>
+           <span >55 mins</span>
+        </div>
+
+        <div class=" p-1 mx-2 " style="background-color: rgb(180, 176, 176);" id="dii1">
+          <i class="fas fa-caret-right"></i>
+           <span >Play Episode</span>
+        </div>
+      </div>
+</div>
+
+<div class="famnewimg col-lg-2 col-sm-12 float-start ">
+  <img src="img/im3.jpg" alt="" class="w-100  col-lg-2 col-sm-10"  style="height: 310px;" id="imm">
+    </div>
+  <div class="clear float-none"></div>
+  </div>
+
+</div>
+
+<!-- ----------------------------- -->
+<div class="mx-auto text-center w-100 mt-5"> <p id="liear" class="fw-bold fs-4">Join US</p></div>
+ 
+<div class="container">
+  <div class="row  d-flex justify-content-between ">
+ <div  style=" width: 200; height: 200;" class="border text-center p-2 col-lg-2 col-sm-11 mb-4 mx-4"  id="shadow" >
+<h5 style="color: gray;" >Subscribe Now</h5>
+<i class="fab fa-twitter-square " style="color: rgb(9, 43, 56); font-size: 100px;"></i>
+<a href="#" class="text-decoration-none"><h5 style="color:gray;" >Go to Link</h5></a>
+ </div>
+
+  <div  style="width: 200; height: 200;" class="border text-center p-2 col-lg-2  col-sm-6 mb-4 mx-4"  id="shadow" >
+ <h5 style="color: gray;" >Subscribe Now</h5>
+ <i class="fab fa-whatsapp" style="color: rgb(27, 209, 43); font-size: 100px;"></i>
+ <a href="#" class="text-decoration-none"><h5 style="color: gray;" >Go to Link</h5></a>
+  </div>
+
+  <div  style=" width: 200; height: 200;" class="border text-center p-2 col-lg-2  col-sm-6 mb-4 mx-4" id="shadow" >
+    <h5 style="color: gray;" >Subscribe Now</h5>
+    <i class="fab fa-linkedin" style="color: rgb(16, 19, 209); font-size: 100px;"></i>
+    <a href="#" class="text-decoration-none"><h5 style="color: gray;" >Go to Link</h5></a>
+     </div>
+
+
+     <div  style=" width: 200; height: 200;" class="border text-center p-2 col-lg-2 col-sm-6 mb-4 mx-4" id="shadow" >
+      <h5 style="color: gray;" >Subscribe Now</h5>
+      <i class="fab fa-instagram" style="color: rgb(185, 22, 90); font-size: 100px;"></i>
+      <a href="#" class="text-decoration-none"><h5 style="color: gray;" >Go to Link</h5></a>
+       </div>
+
+</div>
+</div>
+<div class="container-fluid bg-info p-4 " >
+
+  <div class="row d-flex justify-content-between">
+    
+    <hr class="text-light ">
+  <div class="col-lg-3 col-sm-10 mx-3  ">
+    <div  class="d-flex"style="margin-left: 100;">
+<img src="img/B612_20200320_144739_482.jpg" class="rounded-circle border" style="width: 50; height: 50;">
+<p class="mt-2 mx-2 text-light">Good company</p>
+
+</div>
+<hr class="text-light mt-2 w-100">
+<p class="text-light mx-4 text-center">Tel 0000000000</p>
+<p class="text-light mx-4 text-center">Adress Eygpt</p>
+<p class="text-light mx-4 text-center">Fax 0000000</p>
+
+  </div>
+  
+ 
+  <div class="col-lg-3 col-sm-10 mx-3">
+    <div  class="d-flex " style="margin-left: 100;">
+<img src="img/img1.jpg" class="rounded-circle" style="width: 50; height: 50;">
+<p class="mt-2 mx-2 text-light">Good company</p>
+</div>
+  <hr class="text-light mt-2">
+<p class="text-light mx-4 text-center">Tel 0000000000</p>
+<p class="text-light mx-4 text-center">Adress Eygpt</p>
+<p class="text-light mx-4 text-center">Fax 0000000</p>
+  </div>
+
+<div class="col-lg-3 col-sm-10 mx-3 ">
+    <div  class="d-flex " style="margin-left: 100;" >
+<img src="img/im4.jpg" class="rounded-circle" style="width: 50; height: 50;">
+<p class="mt-2 mx-2 text-light">Good company</p>
+</div>
+  <hr class="text-light mt-2">
+<p class="text-light mx-4 text-center">Servieices for all</p>
+<p class="text-light mx-4 text-center">Provide best Serveices</p>
+<p class="text-light mx-4 text-center">You will be better than befor</p>
+  </div>
+  <hr class="text-light ">
+ <div class="col-lg-9  text-center w-100">
+<strong class="text-center"   id="liear">COPY RIGHT @ 2020 ASMAAHOSSAM MOHAMED GOOD COMPANY ALL RIGHTS  </strong>
+ </div>
+ <hr class="text-light mt-2">
+ 
+ </div>
+</div>
+
+
+
+
+
+
+    <script src="js/jquery-3.7.1.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/script.js"></script>
+</body>
+
+
+</html>
