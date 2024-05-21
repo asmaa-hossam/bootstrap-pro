@@ -5,7 +5,7 @@ body{
 }
 
 #vv{
-    top: 6%;
+    top: 7%;
     left: 30%;}
 .overlay{
     top: 500px;
@@ -132,4 +132,7 @@ background-color: rgb(28, 131, 156) !important;
 }
 .famnewcon:hover .under{
     width: 12% !important;
+}
+#icon1:hover{
+   background-color: white !important;
 }
